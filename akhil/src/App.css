@@ -1,0 +1,28 @@
+:root{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display-box{
+  width: 40%;
+  border: 2px solid black;
+  color: blue;
+  display: inline-block;
+  text-align: center;
+}
+.parent{
+  position: absolute;
+  width: 60%;
+  left: 35%;
+  top: 0%; 
+  align-items: center;
+  
+}
+.parent div{
+  display: block;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: auto;
+}
+.parent div h2{
+  /* display: flex;
+  justify-content: center; */
+}
