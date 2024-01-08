@@ -116,7 +116,7 @@ class HigherorderFunction extends React.Component{
                     </div>
                 </React.Fragment>
                 <React.Fragment>
-                    <h2>Filter all data based on age greater than<br> 28 and age less than or equal to 50</h2>
+                    <h2>Filter all data based on age greater than28 and age less than or equal to 50</h2>
                     <div className="display-box">
                         <ul>{this.renderDataByAge()} </ul>
                     </div>
